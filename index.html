@@ -1,0 +1,340 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Barbara Roig | Law, Business & Technology</title>
+
+    <meta name="description" content="Professional portfolio exploring law, business, technology, AI governance and human behavior.">
+
+    <style>
+        :root {
+            --navy: #17243A;
+            --ivory: #F3EFE7;
+            --gold: #B49A78;
+            --charcoal: #292A2D;
+            --muted: #77736C;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            background: var(--ivory);
+            color: var(--charcoal);
+            font-family: Arial, sans-serif;
+            line-height: 1.7;
+        }
+
+        header {
+            max-width: 1150px;
+            margin: auto;
+            padding: 28px 35px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #D9D2C7;
+        }
+
+        .logo {
+            font-family: Georgia, serif;
+            font-size: 23px;
+            color: var(--navy);
+            text-decoration: none;
+        }
+
+        nav a {
+            color: var(--charcoal);
+            text-decoration: none;
+            margin-left: 22px;
+            font-size: 13px;
+        }
+
+        nav a:hover {
+            color: var(--gold);
+        }
+
+        main {
+            max-width: 1150px;
+            margin: auto;
+            padding: 0 35px;
+        }
+
+        .hero {
+            padding: 115px 0 125px;
+            max-width: 850px;
+        }
+
+        .eyebrow {
+            color: var(--gold);
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            font-size: 11px;
+            font-weight: bold;
+        }
+
+        h1, h2, h3 {
+            font-family: Georgia, serif;
+            font-weight: normal;
+            color: var(--navy);
+        }
+
+        h1 {
+            font-size: clamp(48px, 8vw, 82px);
+            line-height: 1.08;
+            margin: 22px 0;
+        }
+
+        .hero p {
+            font-size: 18px;
+            max-width: 680px;
+            color: #625F59;
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 22px;
+            padding: 13px 24px;
+            background: var(--navy);
+            color: white;
+            text-decoration: none;
+            font-size: 13px;
+        }
+
+        section {
+            padding: 75px 0;
+            border-top: 1px solid #D9D2C7;
+        }
+
+        h2 {
+            font-size: 38px;
+            margin: 12px 0 25px;
+        }
+
+        .section-text {
+            max-width: 750px;
+            color: #625F59;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-top: 35px;
+        }
+
+        .card {
+            padding: 25px;
+            border: 1px solid #D9D2C7;
+            background: rgba(255,255,255,0.25);
+        }
+
+        .card h3 {
+            font-size: 23px;
+        }
+
+        .card p {
+            color: var(--muted);
+            font-size: 14px;
+        }
+
+        .project {
+            padding: 30px;
+            background: var(--navy);
+            color: white;
+            margin-top: 25px;
+        }
+
+        .project h3 {
+            color: white;
+            font-size: 27px;
+        }
+
+        .project p {
+            color: #D9DFE8;
+        }
+
+        .project a {
+            color: #D9C4A3;
+        }
+
+        footer {
+            padding: 35px;
+            text-align: center;
+            color: var(--muted);
+            border-top: 1px solid #D9D2C7;
+            font-size: 12px;
+        }
+
+        @media (max-width: 700px) {
+            header {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            nav a {
+                margin: 0 7px;
+            }
+
+            .hero {
+                padding: 75px 0;
+            }
+
+            .grid {
+                grid-template-columns: 1fr;
+            }
+
+            main {
+                padding: 0 22px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <a class="logo" href="#">Barbara Roig.</a>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#focus">Focus</a>
+        <a href="#research">Research</a>
+        <a href="#writing">Writing</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<main>
+
+    <div class="hero">
+        <div class="eyebrow">Law · Business · Technology · Human Behavior</div>
+
+        <h1>Understanding the intersection of law and innovation.</h1>
+
+        <p>
+            Exploring how legal frameworks, business decisions,
+            human behavior, and emerging technologies shape
+            our institutions and the future of innovation.
+        </p>
+
+        <a class="button" href="#research">Explore my work</a>
+    </div>
+
+    <section id="about">
+        <div class="eyebrow">01 / About</div>
+
+        <h2>A multidisciplinary perspective.</h2>
+
+        <p class="section-text">
+            My background combines psychology research and
+            hands-on legal experience. Through my work in legal
+            support and independent research, I have developed
+            an interest in corporate law, regulatory compliance,
+            technology, and responsible AI governance.
+
+            I am particularly interested in understanding how
+            human judgment, legal accountability, and business
+            strategy intersect as technology evolves.
+        </p>
+    </section>
+
+    <section id="focus">
+        <div class="eyebrow">02 / Areas of Interest</div>
+
+        <h2>Where my interests meet.</h2>
+
+        <div class="grid">
+
+            <div class="card">
+                <h3>Corporate & Technology Law</h3>
+                <p>
+                    Corporate transactions, business strategy,
+                    technology companies, and legal risk.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Healthcare & AI Governance</h3>
+                <p>
+                    Responsible AI, healthcare regulation,
+                    privacy, and accountability.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Compliance & Research</h3>
+                <p>
+                    Regulatory frameworks, governance,
+                    human behavior, and decision-making.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="research">
+        <div class="eyebrow">03 / Selected Work</div>
+
+        <h2>Research & Projects.</h2>
+
+        <div class="project">
+            <div class="eyebrow">Research Project · In Progress</div>
+
+            <h3>AI Governance, Legal Risk, and Financial Materiality</h3>
+
+            <p>
+                An exploration of how public companies communicate
+                AI-related opportunities, investments, legal risks,
+                regulatory uncertainty, and governance in their
+                annual 10-K disclosures.
+            </p>
+
+            <a href="https://github.com/barbaramroig-tech/ai_governance_10k_analysis">
+                Explore the research on GitHub →
+            </a>
+        </div>
+    </section>
+
+    <section id="writing">
+        <div class="eyebrow">04 / Perspectives</div>
+
+        <h2>Ideas worth exploring.</h2>
+
+        <p class="section-text">
+            Essays and reflections on law, business, emerging
+            technologies, financial risk, psychology, and
+            responsible innovation.
+
+            New writing coming soon.
+        </p>
+    </section>
+
+    <section id="contact">
+        <div class="eyebrow">05 / Contact</div>
+
+        <h2>Let's connect.</h2>
+
+        <p class="section-text">
+            Interested in conversations about law, business,
+            technology, research, and emerging innovation.
+        </p>
+
+        <a class="button"
+           href="https://github.com/barbaramroig-tech">
+            GitHub Profile
+        </a>
+    </section>
+
+</main>
+
+<footer>
+    © 2026 Barbara Roig · Professional Portfolio
+</footer>
+
+</body>
+</html>
