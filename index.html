@@ -65,9 +65,23 @@
         }
 
         .hero {
-            padding: 115px 0 125px;
-            max-width: 850px;
-        }
+    padding: 90px 0;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 50px;
+    align-items: center;
+}
+        .hero-portrait img {
+    width: 100%;
+    max-width: 360px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: clamp(38px, 5vw, 64px);
+}
 
         .eyebrow {
             color: var(--gold);
@@ -181,8 +195,10 @@
             }
 
             .hero {
-                padding: 75px 0;
-            }
+    padding: 55px 0;
+    grid-template-columns: 1fr;
+    gap: 30px;
+}
 
             .grid {
                 grid-template-columns: 1fr;
@@ -211,19 +227,34 @@
 
 <main>
 
-    <div class="hero">
-        <div class="eyebrow">Law · Business · Technology · Human Behavior</div>
+    
+<div class="hero">
 
-        <h1>Understanding the intersection of law and innovation.</h1>
+    <div class="hero-content">
+
+        <div class="eyebrow">
+            Independent Research &amp; Professional Portfolio
+        </div>
+
+        <h1>Law, markets and institutions in a changing world.</h1>
 
         <p>
-            Exploring how legal frameworks, business decisions,
-            human behavior, and emerging technologies shape
-            our institutions and the future of innovation.
+            Psychology graduate and prospective law student
+            with a background in cognitive and neuropsychological
+            research, exploring corporate law, financial markets,
+            international economic law and technology governance.
         </p>
 
         <a class="button" href="#research">Explore my work</a>
+
     </div>
+
+    <div class="hero-portrait">
+        <img src="portrait.png" alt="Professional portrait of Barbara Roig">
+    </div>
+
+</div>
+
 
     <section id="about">
         <div class="eyebrow">01 / About</div>
